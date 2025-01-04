@@ -19,7 +19,7 @@ export function Navigation() {
         <Link to="/" className="flex items-center">
           <GraduationCap className="h-8 w-8 text-indigo-600 dark:text-indigo-400" />
           <span className="ml-2 text-xl font-bold text-gray-900 dark:text-white">
-            EduCenter
+            EduCenter 
           </span>
         </Link>
 
