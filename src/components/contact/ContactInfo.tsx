@@ -6,17 +6,17 @@ const contactDetails = [
   {
     icon: <Mail className="w-5 h-5" />,
     label: 'Email',
-    value: 'contact@educenter.com',
+    value: 'francisxavier@gmail.com',
   },
   {
     icon: <Phone className="w-5 h-5" />,
     label: 'Phone',
-    value: '(555) 123-4567',
+    value: '91-8248353817',
   },
   {
     icon: <MapPin className="w-5 h-5" />,
     label: 'Address',
-    value: '123 Education St, New York, NY 10001',
+    value: 'vannarpettai tiruelveli(627003)',
   },
 ];
 
