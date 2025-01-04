@@ -1,11 +1,18 @@
+<<<<<<< HEAD
 import React, { useState } from 'react';
+=======
+import React from 'react';
+>>>>>>> 290a69daf94b7ea2fbc68fac7c7ae08ebc514a28
 import { Link, useLocation } from 'react-router-dom';
 import { GraduationCap } from 'lucide-react';
 
 export function Navigation() {
   const location = useLocation();
+<<<<<<< HEAD
   const [isMenuOpen, setIsMenuOpen] = useState(false);
   
+=======
+>>>>>>> 290a69daf94b7ea2fbc68fac7c7ae08ebc514a28
   const links = [
     { to: '/', label: 'Home' },
     { to: '/about', label: 'About' },
@@ -14,6 +21,7 @@ export function Navigation() {
   ];
 
   return (
+<<<<<<< HEAD
     <nav className="bg-white dark:bg-gray-900 sticky top-0 w-full z-20 start-0 border-b border-gray-200 dark:border-gray-600">
       <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
         <Link to="/" className="flex items-center">
@@ -49,6 +57,20 @@ export function Navigation() {
 
         <div className={`${isMenuOpen ? 'block' : 'hidden'} w-full md:block md:w-auto`} id="navbar-sticky">
           <div className="flex flex-col md:flex-row md:space-x-8 mt-4 md:mt-0">
+=======
+    <nav className="bg-white dark:bg-gray-900 shadow-lg">
+      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div className="flex justify-between h-16">
+          <div className="flex items-center">
+            <Link to="/" className="flex items-center">
+              <GraduationCap className="h-8 w-8 text-indigo-600 dark:text-indigo-400" />
+              <span className="ml-2 text-xl font-bold text-gray-900 dark:text-white">
+                EduCenter
+              </span>
+            </Link>
+          </div>
+          <div className="flex items-center">
+>>>>>>> 290a69daf94b7ea2fbc68fac7c7ae08ebc514a28
             {links.map(({ to, label }) => (
               <Link
                 key={to}
@@ -58,7 +80,10 @@ export function Navigation() {
                     ? 'text-indigo-600 dark:text-indigo-400'
                     : 'text-gray-700 dark:text-gray-300 hover:text-indigo-600 dark:hover:text-indigo-400'
                   }`}
+<<<<<<< HEAD
                 onClick={() => setIsMenuOpen(false)}
+=======
+>>>>>>> 290a69daf94b7ea2fbc68fac7c7ae08ebc514a28
               >
                 {label}
               </Link>
