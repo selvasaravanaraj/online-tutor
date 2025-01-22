@@ -14,9 +14,9 @@ const contactDetails = [
     value: '91-8248353817',
   },
   {
-    icon: <MapPin className="w-5 h-5" />,
-    label: 'Address',
-    value: '103/G2, By pass Road, Vannarpet, Tirunelveli, Tamil Nadu 627003)',
+    // icon: <MapPin className="w-5 h-5" />,
+    // label: 'Address',
+    // value: '103/G2, By pass Road, Vannarpet, Tirunelveli, Tamil Nadu 627003)',
   },
 ];
 

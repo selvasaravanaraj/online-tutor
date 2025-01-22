@@ -5,7 +5,7 @@ const COURSES: Course[] = [
  
   {
     id: '1',
-    title: 'Python for Beginners',
+    title: 'C programming',
     description: 'Start your coding journey with Python. Learn fundamentals, data structures, and basic algorithms.',
     level: 'Beginner',
     subject: 'Programming',
@@ -15,6 +15,16 @@ const COURSES: Course[] = [
   },
   {
     id: '2',
+    title: 'Java',
+    description: 'Start your coding journey with Python. Learn fundamentals, data structures, and basic algorithms.',
+    level: 'Beginner',
+    subject: 'Programming',
+    price: 199,
+    duration: '6 weeks',
+    image: 'https://images.unsplash.com/photo-1461749280684-dccba630e2f6?auto=format&fit=crop&w=800&h=400',
+  },
+  {
+    id: '3',
     title: 'Python for Beginners',
     description: 'Start your coding journey with Python. Learn fundamentals, data structures, and basic algorithms.',
     level: 'Beginner',
@@ -23,7 +33,36 @@ const COURSES: Course[] = [
     duration: '6 weeks',
     image: 'https://images.unsplash.com/photo-1461749280684-dccba630e2f6?auto=format&fit=crop&w=800&h=400',
   },
-  
+  {
+    id: '4',
+    title: 'Fullstack',
+    description: 'Start your coding journey with Python. Learn fundamentals, data structures, and basic algorithms.',
+    level: 'Beginner',
+    subject: 'Programming',
+    price: 199,
+    duration: '6 weeks',
+    image: 'https://images.unsplash.com/photo-1461749280684-dccba630e2f6?auto=format&fit=crop&w=800&h=400',
+  },
+  {
+    id: '5',
+    title: 'ARVR',
+    description: 'Start your coding journey with Python. Learn fundamentals, data structures, and basic algorithms.',
+    level: 'Beginner',
+    subject: 'Programming',
+    price: 199,
+    duration: '6 weeks',
+    image: 'https://images.unsplash.com/photo-1461749280684-dccba630e2f6?auto=format&fit=crop&w=800&h=400',
+  },
+  {
+    id: '6',
+    title: 'AI&ML',
+    description: 'Start your coding journey with Python. Learn fundamentals, data structures, and basic algorithms.',
+    level: 'Beginner',
+    subject: 'Programming',
+    price: 199,
+    duration: '6 weeks',
+    image: 'https://images.unsplash.com/photo-1461749280684-dccba630e2f6?auto=format&fit=crop&w=800&h=400',
+  },
 ];
 
 export function useCourses() {

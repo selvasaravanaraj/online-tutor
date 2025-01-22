@@ -18,7 +18,7 @@ export function Home() {
       
       {/* Featured Courses */}
       <section className="max-w-7xl mx-auto px-4 py-16">
-        <SectionTitle>Featured Courses</SectionTitle>
+        <SectionTitle>Programming Courses</SectionTitle>
         <motion.div
           initial={{ opacity: 0, y: 20 }}
           whileInView={{ opacity: 1, y: 0 }}
@@ -35,6 +35,7 @@ export function Home() {
               View All Courses
             </a>
           </div>
+          
         </motion.div>
       </section>
 
