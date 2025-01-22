@@ -52,12 +52,8 @@ export function CourseCard({ course }: CourseCardProps) {
         
         <div className="flex items-center justify-between">
           <span className="text-2xl font-bold text-indigo-600 dark:text-indigo-400">
-            ${course.price}
+          ₹{course.price}
           </span>
-          <button className="bg-indigo-600 text-white px-4 py-2 rounded-lg
-                           hover:bg-indigo-700 transition-colors duration-200">
-            Enroll Now
-          </button>
         </div>
       </div>
     </motion.div>

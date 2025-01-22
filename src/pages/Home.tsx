@@ -14,7 +14,7 @@ export function Home() {
   return (
     <div className="space-y-20">
       <HeroSection />
-      <StatsSection />
+      {/* <StatsSection /> */}
       
       {/* Featured Courses */}
       <section className="max-w-7xl mx-auto px-4 py-16">
@@ -39,12 +39,12 @@ export function Home() {
       </section>
 
       {/* Testimonials */}
-      <section className="bg-gray-50 dark:bg-gray-800 py-16">
+      {/* <section className="bg-gray-50 dark:bg-gray-800 py-16">
         <div className="max-w-7xl mx-auto px-4">
-          <SectionTitle>What Our Students Say</SectionTitle>
+          
           <TestimonialSlider />
         </div>
-      </section>
+      </section> */}
 
       {/* Special Offer */}
       <section className="max-w-7xl mx-auto px-4 py-16">

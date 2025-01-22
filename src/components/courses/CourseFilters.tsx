@@ -7,7 +7,7 @@ interface CourseFiltersProps {
   onFilterChange: (filters: FilterType) => void;
 }
 
-const subjects = ['All', 'Mathematics', 'Science', 'English', 'History', 'Programming'];
+const subjects = ['All','Programming'];
 const levels = ['All', 'Beginner', 'Intermediate', 'Advanced'];
 
 export function CourseFilters({ filters, onFilterChange }: CourseFiltersProps) {
@@ -17,7 +17,7 @@ export function CourseFilters({ filters, onFilterChange }: CourseFiltersProps) {
         <label className="block text-sm font-medium text-gray-700 dark:text-gray-300 mb-2">
           Subject
         </label>
-        <select
+        { <select
           value={filters.subject}
           onChange={(e) => onFilterChange({ ...filters, subject: e.target.value })}
           className="w-full rounded-lg border-gray-300 dark:border-gray-600 
@@ -28,7 +28,7 @@ export function CourseFilters({ filters, onFilterChange }: CourseFiltersProps) {
               {subject}
             </option>
           ))}
-        </select>
+        </select>}
       </div>
       
       <div className="flex-1">
@@ -62,7 +62,7 @@ export function CourseFilters({ filters, onFilterChange }: CourseFiltersProps) {
           className="w-full"
         />
         <div className="text-sm text-gray-600 dark:text-gray-400 mt-1">
-          Max Price: ${filters.maxPrice}
+          Max Price: ₹{filters.maxPrice}
         </div>
       </div>
     </div>

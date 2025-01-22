@@ -1,7 +1,15 @@
 import React from 'react';
 import { motion } from 'framer-motion';
+import { useNavigate } from 'react-router-dom';
 
 export function HeroSection() {
+  const navigate = useNavigate(); // Initialize useNavigate hook
+
+  const handleButtonClick = () => {
+     navigate('/courses'); // Redirect to /courses
+    
+  };
+
   return (
     <section className="relative h-screen flex items-center justify-center overflow-hidden">
       <div className="absolute inset-0 bg-gradient-to-r from-indigo-600 to-purple-600 opacity-90" />
@@ -26,6 +34,7 @@ export function HeroSection() {
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.8, delay: 0.4 }}
+          onClick={handleButtonClick}
           className="bg-white text-indigo-600 px-8 py-3 rounded-full font-medium
                    hover:bg-opacity-90 transition-all duration-200"
         >

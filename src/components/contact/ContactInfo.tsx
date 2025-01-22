@@ -16,7 +16,7 @@ const contactDetails = [
   {
     icon: <MapPin className="w-5 h-5" />,
     label: 'Address',
-    value: 'vannarpettai tiruelveli(627003)',
+    value: '103/G2, By pass Road, Vannarpet, Tirunelveli, Tamil Nadu 627003)',
   },
 ];
 
