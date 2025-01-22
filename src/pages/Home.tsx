@@ -32,7 +32,7 @@ export function Home() {
               className="inline-block bg-indigo-600 text-white px-8 py-3 rounded-full
                        hover:bg-indigo-700 transition-colors duration-200"
             >
-              View All Courses
+              View All Courses.
             </a>
           </div>
           
