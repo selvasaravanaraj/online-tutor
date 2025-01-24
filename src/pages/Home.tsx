@@ -12,9 +12,8 @@ export const Home: React.FC = () => {
   const featuredCourses = courses.slice(0, 3); // Show only first 3 courses
 
   return (
-    <div className="space-y-20">
+    <div>
       <HeroSection />
-      {/* <StatsSection /> */}
       
       {/* Featured Courses */}
       <section className="max-w-7xl mx-auto px-4 py-16">
@@ -39,7 +38,7 @@ export const Home: React.FC = () => {
       </section>
 
       {/* Project Assistance (Updated to Boxes) */}
-      <section className="max-w-7xl mx-auto px-4 py-16">
+      <section className="max-w-7xl mx-auto px-4">
         <SectionTitle>Project Assistance</SectionTitle>
         <motion.div
           initial={{ opacity: 0, y: 20 }}
