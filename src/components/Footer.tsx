@@ -61,7 +61,7 @@ export const Footer: React.FC = () => {
 
             {/* Instagram */}
             <a
-              href="https://instagram.com"
+              href="https://www.instagram.com/_selva_007___/#"
               target="_blank"
               rel="noopener noreferrer"
               className="text-gray-400 hover:text-white"
@@ -71,7 +71,7 @@ export const Footer: React.FC = () => {
 
             {/* LinkedIn */}
             <a
-              href="https://linkedin.com"
+              href="https://www.linkedin.com/in/selva-saravana-raj-j/"
               target="_blank"
               rel="noopener noreferrer"
               className="text-gray-400 hover:text-white"
@@ -91,7 +91,7 @@ export const Footer: React.FC = () => {
 
             {/* Email */}
             <a
-              href="mailto:info@educenter.com"
+              href="mailto:selvasaravanarajj@gmail.com"
               target="_blank"
               rel="noopener noreferrer"
               className="text-gray-400 hover:text-white"

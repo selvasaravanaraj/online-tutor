@@ -6,7 +6,7 @@ const contactDetails = [
   {
     icon: <Mail className="w-5 h-5" />,
     label: 'Email',
-    value: 'francisxavier@gmail.com',
+    value: 'selvasaravanarajj@gmail.com',
   },
   {
     icon: <Phone className="w-5 h-5" />,
