@@ -50,7 +50,7 @@ export const Home: React.FC = () => {
             {/* Web Development */}
             <div className="bg-gray-100 dark:bg-gray-800 p-8 rounded-lg shadow-lg">
               <h3 className="text-2xl font-bold text-gray-800 dark:text-gray-100 mb-4">
-                Web Development
+                WEB DEVELOPEMENT
               </h3>
               <p className="text-lg text-gray-600 dark:text-gray-300">
                 Get expert guidance on front-end, back-end, and full-stack development projects.
@@ -60,17 +60,17 @@ export const Home: React.FC = () => {
             {/* AI & ML */}
             <div className="bg-gray-100 dark:bg-gray-800 p-8 rounded-lg shadow-lg">
               <h3 className="text-2xl font-bold text-gray-800 dark:text-gray-100 mb-4">
-                AI & ML
+                AI&ML
               </h3>
               <p className="text-lg text-gray-600 dark:text-gray-300">
                 Build intelligent systems using machine learning models and AI frameworks.
               </p>
             </div>
 
-            {/* IoT */}
+            {/* IOT */}
             <div className="bg-gray-100 dark:bg-gray-800 p-8 rounded-lg shadow-lg">
               <h3 className="text-2xl font-bold text-gray-800 dark:text-gray-100 mb-4">
-                IoT
+                IOT
               </h3>
               <p className="text-lg text-gray-600 dark:text-gray-300">
                 Learn to create IoT solutions, connect devices, and work on smart systems.
@@ -80,7 +80,7 @@ export const Home: React.FC = () => {
             {/* AR & VR */}
             <div className="bg-gray-100 dark:bg-gray-800 p-8 rounded-lg shadow-lg">
               <h3 className="text-2xl font-bold text-gray-800 dark:text-gray-100 mb-4">
-                AR & VR
+                AR&VR
               </h3>
               <p className="text-lg text-gray-600 dark:text-gray-300">
                 Develop immersive experiences with Augmented and Virtual Reality technologies.
@@ -103,7 +103,7 @@ export const Home: React.FC = () => {
             {/* UG Computer Branch 1 */}
             <div className="bg-gray-100 dark:bg-gray-800 p-8 rounded-lg shadow-lg">
               <h3 className="text-xl font-bold text-gray-800 dark:text-gray-100 mb-4">
-                Computer Science Engineering
+                INFORMATION TECHNOLOGIES
               </h3>
               <p className="text-lg text-gray-600 dark:text-gray-300">
                 Get personalized tuition for core subjects like Data Structures, Algorithms, and more.
@@ -113,7 +113,7 @@ export const Home: React.FC = () => {
             {/* UG Computer Branch 2 */}
             <div className="bg-gray-100 dark:bg-gray-800 p-8 rounded-lg shadow-lg">
               <h3 className="text-xl font-bold text-gray-800 dark:text-gray-100 mb-4">
-                Information Technology
+                COMPUTER SCIENCE
               </h3>
               <p className="text-lg text-gray-600 dark:text-gray-300">
                 Learn IT-focused subjects like Networking, Databases, and Software Engineering.
@@ -123,7 +123,7 @@ export const Home: React.FC = () => {
             {/* UG Computer Branch 3 */}
             <div className="bg-gray-100 dark:bg-gray-800 p-8 rounded-lg shadow-lg">
               <h3 className="text-xl font-bold text-gray-800 dark:text-gray-100 mb-4">
-                Electronics and Communication
+                ELECTRONICS ENGINEERING
               </h3>
               <p className="text-lg text-gray-600 dark:text-gray-300">
                 Master topics like Microprocessors, Embedded Systems, and more with expert guidance.

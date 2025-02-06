@@ -6,7 +6,7 @@ const COURSES: Course[] = [
   {
     id: '1',
     title: 'C programming',
-    description: 'Start your coding journey with Python. Learn fundamentals, data structures, and basic algorithms.',
+    description: 'A fast and efficient language for system programming and embedded systems.',
     level: 'Beginner',
     subject: 'Programming',
     price: 199,
@@ -16,7 +16,7 @@ const COURSES: Course[] = [
   {
     id: '2',
     title: 'Java',
-    description: 'Start your coding journey with Python. Learn fundamentals, data structures, and basic algorithms.',
+    description: 'A cross-platform language used for web, enterprise, and Android development.',
     level: 'Beginner',
     subject: 'Programming',
     price: 199,
@@ -26,7 +26,7 @@ const COURSES: Course[] = [
   {
     id: '3',
     title: 'Python for Beginners',
-    description: 'Start your coding journey with Python. Learn fundamentals, data structures, and basic algorithms.',
+    description: 'A beginner-friendly language ideal for AI, automation, and web development.',
     level: 'Beginner',
     subject: 'Programming',
     price: 199,
@@ -36,7 +36,7 @@ const COURSES: Course[] = [
   {
     id: '4',
     title: 'Fullstack',
-    description: 'Start your coding journey with Python. Learn fundamentals, data structures, and basic algorithms.',
+    description: 'Complete web development covering both front-end and back-end.',
     level: 'Beginner',
     subject: 'Programming',
     price: 199,
@@ -46,7 +46,7 @@ const COURSES: Course[] = [
   {
     id: '5',
     title: 'ARVR',
-    description: 'Start your coding journey with Python. Learn fundamentals, data structures, and basic algorithms.',
+    description: 'Technologies for immersive real-world (AR) and digital (VR) experiences.',
     level: 'Beginner',
     subject: 'Programming',
     price: 199,
@@ -56,7 +56,7 @@ const COURSES: Course[] = [
   {
     id: '6',
     title: 'AI&ML',
-    description: 'Start your coding journey with Python. Learn fundamentals, data structures, and basic algorithms.',
+    description: 'Intelligent systems that learn, predict, and automate tasks.',
     level: 'Beginner',
     subject: 'Programming',
     price: 199,
